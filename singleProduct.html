@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshGrocer - Grocery Shopping</title>
+
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section id="header">
+        <img src="images/logo1.png" class="logo" alt="FreshGrocer Logo" style="width: 80px; height: auto;">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="productdetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="images/products/Tomato.webp" width="100%" id="MainImg" alt="Fresh Tomato"
+                style="max-width: 400px;">
+            <div class="small-image-group">
+                <div class="small-img-col">
+                    <img src="images/products/Tomato.webp" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/products/tomato2.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/products/tomato3.jpg" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img src="images/products/tomato4.jpg" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>Home / Vegetables</h6>
+            <h4>Fresh Red Tomatoes</h4>
+            <h2>₹40.00 / kg</h2>
+            <select>
+                <option>Select Quantity</option>
+                <option>0.5 kg</option>
+                <option>1 kg</option>
+                <option>2 kg</option>
+                <option>5 kg</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to Cart</button>
+            <h4>Product Details</h4>
+            <span>These fresh, juicy red tomatoes are locally sourced and full of flavor. Perfect for salads, cooking,
+                and sauces. Rich in vitamins A, C, and K with powerful antioxidants.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Groceries</h2>
+        <p>Fresh & Organic Picks Just For You</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="images/products/Potato.webp" alt="">
+                <div class="des">
+                    <span>Local Farms</span>
+                    <h5>Organic Potatoes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹25/kg</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/Onion.webp" alt="">
+                <div class="des">
+                    <span>Local Farms</span>
+                    <h5>Fresh Onions</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h4>₹30/kg</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/Carrot.webp" alt="">
+                <div class="des">
+                    <span>Organic</span>
+                    <h5>Crunchy Carrots</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h4>₹45/kg</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images/products/Apple.webp" alt="">
+                <div class="des">
+                    <span>Himalayan Orchards</span>
+                    <h5>Fresh Red Apples</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h4>₹120/kg</h4>
+                </div>
+                <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Subscribe for Offers</h4>
+            <p>Get updates on latest deals and <span>seasonal produce</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> Nashik, Maharashtra, India</p>
+            <p><strong>Phone:</strong> +91-9876543210</p>
+            <p><strong>Hours:</strong> 8:00 AM - 9:00 PM, All Days</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i><i class="fab fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">Our Story</a>
+            <a href="#">Delivery Info</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms</a>
+            <a href="#">Support</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">My Cart</a>
+            <a href="#">My Orders</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From Play Store or App Store</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payments</p>
+            <img src="images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2025 FreshGrocer. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Product image JS -->
+    <script>
+        var mainImg = document.getElementById("MainImg");
+        var smallImg = document.getElementsByClassName("small-img");
+        for (let i = 0; i < smallImg.length; i++) {
+            smallImg[i].onclick = function () {
+                mainImg.src = smallImg[i].src;
+            }
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
